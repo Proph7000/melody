@@ -164,6 +164,9 @@ path.current-floor {
 .flats path:hover {
   opacity: 1;
 }
+path.visible {
+  opacity: 1;
+}
 .modal-title {
   font-family: "Bebas Neue", sans-serif;
   font-style: normal;
@@ -193,6 +196,10 @@ path.current-floor {
   text-decoration: none;
 }
 .flat-link:hover {
+  text-decoration: underline;
+  color: #3596f5;
+}
+.underline {
   text-decoration: underline;
   color: #3596f5;
 }
